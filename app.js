@@ -3,9 +3,9 @@ import mongoose from "mongoose";
 import cors from 'cors'
 import bodyParser from "body-parser";
 import student from "./models/student.js";
-import allData from "./models/data";
+import allData from "./models/data.js";
 import nodemailer from 'nodemailer'
-import Trainer from "./models/Trainer";
+import Trainer from "./models/Trainer.js";
 import jwt from "jsonwebtoken";
 import authenticateToken from './middleware';
 import multer from "multer";
