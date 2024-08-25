@@ -17,7 +17,7 @@ import crypto from 'crypto'
 const app=express()
 app.use(bodyParser.json())
 app.use(cors())
-var server=app.listen(7000)
+var server=app.listen(5000)
 mongoose.connect('mongodb+srv://ssowj7481:c6M13xSVAizqezE8@cluster0.n5c8o9s.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0',{useNewUrlParser: true,
 useUnifiedTopology: true})
 .then(()=>console.log("connected to database at localhost 7000"))
