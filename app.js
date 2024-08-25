@@ -7,7 +7,7 @@ import allData from "./models/data.js";
 import nodemailer from 'nodemailer'
 import Trainer from "./models/Trainer.js";
 import jwt from "jsonwebtoken";
-import authenticateToken from './middleware';
+import authenticateToken from './middleware.js';
 import multer from "multer";
 import { fileURLToPath } from 'url';
 import { dirname } from 'path';
