@@ -2,7 +2,7 @@ import express from "express";
 import mongoose from "mongoose";
 import cors from 'cors'
 import bodyParser from "body-parser";
-import student from "./models/student";
+import student from "./models/student.js";
 import allData from "./models/data";
 import nodemailer from 'nodemailer'
 import Trainer from "./models/Trainer";
